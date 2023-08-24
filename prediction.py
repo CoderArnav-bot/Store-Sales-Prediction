@@ -70,5 +70,5 @@ test = encoder.transform(test)
 model = XGBRegressor(n_estimators=10, max_depth=20, verbosity=2)
 model.fit(X_train, y_train)
 
-score = model.score(X_test, y_test) #84.7088
+score = model.score(X_test, y_test) #87.4088
     
